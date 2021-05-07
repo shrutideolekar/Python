@@ -1,1 +1,3 @@
 Detect facial smile from frames (video stream from a webcam) using facial landmarks (68 landmarks) and capture image when the lips make a smiling curve.
+
+Link to download shape_predictor_68_face_landmarks.dat: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
