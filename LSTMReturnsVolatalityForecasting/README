@@ -1,1 +1,10 @@
-
+Primarily, a linear regression model is trained to obtain baseline predictions of the realized
+volatility over a 30-day horizon for the AAPL, MSFT and GOOGL stock indices. A
+successor to the LR model – a Support Vector Regression model is tuned and fitted on the
+data to obtain better forecasts. Moving from traditional regression techniques to neural
+networks, a three-layer TensorFlow-based feed forward network is fitted on the training data
+which seems to yield significant forecasts. A further enhancement to this network is done by
+adding a LSTM layer which predicts the most accurate forecasts of realized volatility so far
+on the test set with appropriate hyperparameter tuning. This best model is then used to
+forecast 30-day ahead realized volatility with appropriate dataset and model parameters
+changes.
